@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Dance On - Prodigy Intecth</title>
+</head>
+	<style>
+		#multi-tab{background-image:url("background-guides.jpg"); width: 100%; max-width: 590px; height: 442px; background-repeat: no-repeat; background-size: 100%;}
+		#Button1,#Button2,#Button3,#Button4{margin-top:80px;padding:0;text-align:center;float:left;border:1px solid #aaa;background:#fca24a;cursor:pointer;width:100px;height:25px;line-height:25px;color:white;}
+		#Button1{background: #9b1181; margin-left: 35px;}#Button4{width: 50px;}
+		#Button2,#Button3,#Button4{margin-left:5px;}
+		.gasan-isi{width: 60%; height: 300px; padding: 0;margin:40px auto; text-align:left;}
+		#Content1,#Content2,#Content3,#Content4{margin-left: 40px; overflow: auto;}
+		#Content2,#Content3,#Content4{display:none;}
+		#Content1 p,#Content2 p,#Content3 p, #Content4 p{margin:10px;}
+		#opsi-gambar{width: 100%;}
+		@media (min-width:100px) and (max-width: 425px){
+			#Button1,#Button2,#Button3,#Button4{margin-top: 55px;}
+			#Button3,#Button4{margin-top: 2px;}
+			#Button3{clear: left;margin-left: 35px;}
+			#opsi-gambar{margin-left: -10px; width: 90%;}
+			#multi-tab{height: 2000px;}
+		}
+	</style>
+<body>
+	<div id="multi-tab">
+		<div id="Button1" onclick="document.getElementById('Content1').style.display='block';Content2.style.display='none';Content3.style.display='none';Content4.style.display='none'; Button2.style.backgroundColor='#9b1181';">Wedding</div>
+		<div id="Button2" onclick="document.getElementById('Content1').style.display='none';Content2.style.display='block';Content3.style.display='none';Content4.style.display='none';">LuckyCourt</div>
+		<div id="Button3" onclick="document.getElementById('Content1').style.display='none';Content2.style.display='none';Content3.style.display='block';Content4.style.display='none';">SocialCenter</div>
+		<div id="Button4" onclick="document.getElementById('Content1').style.display='none';Content1.style.display='none';Content2.style.display='none';Content3.style.display='none';Content4.style.display='block';">VIP</div>
+		<div class="gasan-isi" id="Content1">
+			<p>
+				<img src="guide_wedding.jpg" id="opsi-gambar">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae explicabo ipsam accusamus, tempora quasi maiores cumque, doloribus suscipit voluptas similique minus iusto dignissimos officia voluptatibus atque qui, a libero exercitationem!
+			</p>
+		</div>
+		<div class="gasan-isi" id="Content2">
+			<p>
+				<img src="guide-lucky-court.jpg" id="opsi-gambar">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae explicabo ipsam accusamus, tempora quasi maiores cumque, doloribus suscipit voluptas similique minus iusto dignissimos officia voluptatibus atque qui, a libero exercitationem!
+			</p>
+		</div>
+		<div class="gasan-isi" id="Content3">
+			<p>
+				<img src="guide-story.jpg" id="opsi-gambar">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae explicabo ipsam accusamus, tempora quasi maiores cumque, doloribus suscipit voluptas similique minus iusto dignissimos officia voluptatibus atque qui, a libero exercitationem!
+			</p>
+		</div>
+		<div class="gasan-isi" id="Content4">
+			<p>
+				<img src="thumbnail-Bonus-Diamond-4.jpg" id="opsi-gambar">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae explicabo ipsam accusamus, tempora quasi maiores cumque, doloribus suscipit voluptas similiq
+			</p>
+		</div>
+	</div>
+</body>
+</html>
